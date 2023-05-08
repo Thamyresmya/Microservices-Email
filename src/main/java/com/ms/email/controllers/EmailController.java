@@ -19,7 +19,7 @@ public class EmailController {
     EmailService emailService;
 
     //metodo post para uri definida o sendingEmail vai responder recebendo como paramentro EmailDto
-    @PostMapping("/sending-email")
+    @PostMapping("/email")
     public ResponseEntity<EmailModel> sendingEmail(@RequestBody @Valid EmailDto emailDto) {     //recebe o email DTO e valida
         EmailModel emailModel = new EmailModel();                                               // transforma o DTO em model para salvar no BD
         BeanUtils.copyProperties(emailDto, emailModel);                                         // metodo copyProperties -> faz conversao de DTO para MODEL
