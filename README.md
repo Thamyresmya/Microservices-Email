@@ -1,4 +1,4 @@
-![](capa.png)
+![](geral/Capa.png)
 
 <br>
 
