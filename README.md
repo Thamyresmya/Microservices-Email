@@ -23,6 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Spring Boot
 - MySQL
 - Insomnia
+- RabbitMQ
 - Git e Github
 
 <br>
