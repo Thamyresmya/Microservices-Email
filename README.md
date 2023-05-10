@@ -39,7 +39,7 @@ Criando um Microsserviços de envio de e-mail junto com a @michelliBrito, utiliz
 
 ## 🔨 Funcionalidades do projeto
 
-Abaixo um exemplo visual do projeto:
+Abaixo um exemplo visual da funcionalidade do projeto:
 
 ![](geral/microservices%20-%20email.gif)
 

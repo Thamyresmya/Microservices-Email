@@ -1,0 +1,40 @@
+2023-05-08T19:29:05,393 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-05-08T19:29:05,450 INFO  com.ms.email.EmailApplication - Starting EmailApplication using Java 17.0.4 with PID 51952 (C:\Users\thamy\OneDrive\EDUCAÇÃO\PROJETOS\Microsserviços\email\target\classes started by thamy in C:\Users\thamy\OneDrive\EDUCAÇÃO\PROJETOS\Microsserviços\email)
+2023-05-08T19:29:05,458 DEBUG com.ms.email.EmailApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-08T19:29:05,459 INFO  com.ms.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-08T19:29:06,333 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-08T19:29:06,412 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+2023-05-08T19:29:07,155 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-08T19:29:07,166 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-08T19:29:07,167 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-08T19:29:07,167 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-08T19:29:07,297 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-08T19:29:07,298 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1766 ms
+2023-05-08T19:29:07,540 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-08T19:29:07,609 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-08T19:29:07,976 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-08T19:29:08,339 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@280ecc33
+2023-05-08T19:29:08,341 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-08T19:29:08,417 INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-05-08T19:29:09,366 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-08T19:29:09,376 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08T19:29:09,876 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-08T19:29:10,629 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-08T19:29:10,662 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-08T19:29:10,669 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [beaver.rmq.cloudamqp.com:5671]
+2023-05-08T19:29:12,298 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#2b625e82:0/SimpleConnection@7f33ad20 [delegate=amqp://zucjpfob@35.85.123.167:5671/zucjpfob, localPort=61541]
+2023-05-08T19:29:13,729 INFO  com.ms.email.EmailApplication - Started EmailApplication in 8.899 seconds (process running for 9.791)
+2023-05-08T19:29:31,844 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08T19:29:31,844 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-08T19:29:31,846 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-05-08T19:29:35,428 INFO  com.ms.email.services.EmailService - Email sent successfully to: miathamyres@gmail.com 
+2023-05-08T19:29:35,464 INFO  com.ms.email.services.EmailService - Email saved successfully emailId: 11fb9054-62fd-4107-87b8-91375d461c85 
+2023-05-09T02:07:26,635 WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occurred (Exception message: Connection reset)
+2023-05-09T02:07:27,383 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Restarting Consumer@117be84a: tags=[[amq.ctag-SFLazJM1dN1R0wpSS2mpDw]], channel=Cached Rabbit Channel: AMQChannel(amqp://zucjpfob@35.85.123.167:5671/zucjpfob,1), conn: Proxy@3c4231e5 Shared Rabbit Connection: SimpleConnection@7f33ad20 [delegate=amqp://zucjpfob@35.85.123.167:5671/zucjpfob, localPort=61541], acknowledgeMode=AUTO local queue size=0
+2023-05-09T02:07:27,391 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [beaver.rmq.cloudamqp.com:5671]
+2023-05-09T02:07:28,939 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#2b625e82:1/SimpleConnection@4ec64fa4 [delegate=amqp://zucjpfob@35.85.123.167:5671/zucjpfob, localPort=62824]
+2023-05-09T08:23:59,297 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h39m57s233ms410µs400ns).
+2023-05-09T08:24:35,451 WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occurred (Exception message: Connection reset)
+2023-05-09T08:24:35,735 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Restarting Consumer@2b1fb9e8: tags=[[amq.ctag-mQ1RB3pRpoF5GbL-UzNYlQ]], channel=Cached Rabbit Channel: AMQChannel(amqp://zucjpfob@35.85.123.167:5671/zucjpfob,1), conn: Proxy@3c4231e5 Shared Rabbit Connection: SimpleConnection@4ec64fa4 [delegate=amqp://zucjpfob@35.85.123.167:5671/zucjpfob, localPort=62824], acknowledgeMode=AUTO local queue size=0
+2023-05-09T08:24:35,736 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [beaver.rmq.cloudamqp.com:5671]
+2023-05-09T08:24:37,013 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#2b625e82:2/SimpleConnection@5626ae95 [delegate=amqp://zucjpfob@35.85.123.167:5671/zucjpfob, localPort=63186]
